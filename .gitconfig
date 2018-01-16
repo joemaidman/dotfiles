@@ -1,0 +1,10 @@
+[joe]
+	maidman = joemaidman@gmail.com
+[user]
+	name = Joe Maidman
+	email = joemaidman@gmail.com
+[core]
+	autocrlf = false
+	safecrlf = true
+[alias]
+	st = status
