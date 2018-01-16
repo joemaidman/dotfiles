@@ -1,10 +1,5 @@
 echo "Joe's Dotfiles for OSX."
-echo "About to install all the things."
-read -n1 -r -p "Press ENTER to continue or any other key to abort..." key
-
-if ![ "$key" = '\n' ]; then
-    return
-fi
+echo "About to install all the things...."
 
 files=(
     foundations.sh
@@ -15,7 +10,7 @@ files=(
     npm.sh
 )
 
-for f in files
+for f in "${files[@]}"
 do
  sh $f
 done
