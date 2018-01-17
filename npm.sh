@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Installing npm packages globally..."
 
 packages=(
@@ -12,5 +14,3 @@ do
  echo "Installing: " $i
  npm i -g $i
 done
-
-echo "Done"

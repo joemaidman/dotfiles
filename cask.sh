@@ -10,6 +10,7 @@ apps=(
   filezilla
   firefox
   google-chrome
+  intellij-idea-ce
   iterm2
   java  
   skype
@@ -26,5 +27,3 @@ do
  echo "Installing: " $i
  brew cask install $i
 done
-
-echo "Done"

@@ -1,9 +1,14 @@
-echo "Joe's Dotfiles for OSX."
-echo "About to install all the things...."
+#!/bin/bash
 
-echo "Setting Homebrew permissions"
-sudo chown -R $(whoami) $(brew --prefix)/*
-echo "Done"
+echo "Joe's Dotfiles for OSX."
+
+if ! xcode-select -p
+then
+    echo "Xcode CLI tools not installed. Please run xcode-select --install and follow the installation and run this script again."
+    return
+fi
+
+echo "About to install all the things...."
 
 files=(
     foundations.sh
