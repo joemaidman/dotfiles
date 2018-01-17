@@ -3,14 +3,14 @@ echo "Cleaning existing Dotfiles..."
 rm -rf ~/.bash_profile
 rm -rf ~/.zshrc
 rm -rf ~/.gitconfig
+echo "Done"
 
 echo "Setting up symlinks for bash files..."
 ln -s "$PWD/.bash_profile" ~/.bash_profile
 ln -s "$PWD/.zshrc" ~/.zshrc
 ln -s "$PWD./gitconfig" ~/.gitconfig
-source ~/.base_profile
+source ~/.bash_profile
 echo "Done"
-
 
 echo "Installing oh-my-shell"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

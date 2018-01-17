@@ -1,6 +1,10 @@
 echo "Joe's Dotfiles for OSX."
 echo "About to install all the things...."
 
+echo "Setting Homebrew permissions"
+sudo chown -R $(whoami) $(brew --prefix)/*
+echo "Done"
+
 files=(
     foundations.sh
     brew.sh

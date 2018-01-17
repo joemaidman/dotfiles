@@ -2,6 +2,10 @@
 
 My Dotfiles for Mac OS.
 
+### Manual steps (initial)
+- disable natural scroll for track pad
+- xcode-select --install and install xcode
+
 ```git clone https://github.com/joemaidman/dotfiles.git && cd dotfiles && source install.sh```
 
 ### Apps
@@ -44,7 +48,5 @@ The following packages are installed globally via npm:
 ### OSX defaults
 - show hidden files and folders
 
-### Manual steps
-- disable natural scroll for track pad
-- xcode-select --install and install xcode
+### Manual steps (final)
 - sync VSCode settings using <a href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync">plugin </a>
