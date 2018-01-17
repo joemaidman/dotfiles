@@ -7,6 +7,11 @@ My Dotfiles for Mac OS.
 3. Run ```git clone https://github.com/joemaidman/dotfiles.git && cd dotfiles && source install.sh``` to run setup
 
 ### Apps
+The following tools are installed via ```curl```:
+- homebrew
+- oh-my-zsh
+- nvm
+
 The following apps are installed via ```brew cask install```:
 - colorpicker-rcwebcolorpicker
 - docker
@@ -27,7 +32,6 @@ The following apps are installed via ```brew cask install```:
 The following apps are installed via ```brew install```
 - node
 - npm
-- nvm
 - mysql
 - python
 

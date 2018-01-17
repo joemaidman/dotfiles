@@ -9,7 +9,7 @@ ln -s "$PWD/.zshrc" ~/.zshrc
 ln -s "$PWD/.gitconfig" ~/.gitconfig
 source ~/.bash_profile
 
-echo "Installing oh-my-shell"
+echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo "Installing Homebrew"
