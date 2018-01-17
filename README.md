@@ -2,8 +2,6 @@
 
 My Dotfiles for Mac OS.
 
-
-
 ```git clone https://github.com/joemaidman/dotfiles.git && cd dotfiles && source install.sh```
 
 ### Apps
